@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor de Oro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/css/img.css">
+    <link rel="shortcut icon" href="build/img/olive.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <!--    <link rel="stylesheet" href="build/css/app.min.css"> -->
+
+</head>
+
+<body>
+    <header class="py-5 header">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="nosotros.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Elaboracion.html">Elaboracion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="entorno.html">Baeza</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda Online
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="tienda.html">Aceites</a></li>
+                                    <li><a class="dropdown-item" href="gastronomia.html">Gastronomia</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class=" d-flex d-lg-none">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos"
+                                aria-label="Buscar">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <img class="header-aceite" src="build/img/animacion.png" alt="Imagen headers">
+
+        </div>
+
+        <div class="container-xl mt-5">
+            <div class="d-flex justify-content-center ">
+                <div class="col-6 col-md-3">
+                    <h3 class="heading">
+                        Descubre nuestro Aceite de oliva virgen extra Flor de Oro
+                    </h3>
+                </div>
+            </div>
+            <div class="heading-data d-flex flex-column align-items-start">
+                <a class="telefono" href="tel:953 593 202"><i class="fas fa-phone-alt"></i> 953 593 202</a>
+                <a class="correo" href="mailto:administracion@aoveflordeoro.com"><i class="fas fa-envelope"></i>
+                    administracion@aoveflordeoro.com</a>
+            </div>
+        </div>
+    </header>
+    <main class="container-xl mt-5">
+
+        <section class="d-grid img-fluid nosotros">
+            <div class="contenido-nosotros">
+                <h2 class="fw-bold">Sobre Nosotros</h2>
+                <h5 class="sobrenosotros-intro">Nos enorgullece compartir con ustedes nuestra pasión por el aceite de
+                    oliva virgen extra (AOVE).</h5>
+                <p>En Flor de Oro Baeza nos dedicamos a producir AOVE de alta calidad, respetando la tradición y
+                    cuidando cada etapa del proceso. Nuestras aceitunas, seleccionadas de olivos centenarios de la
+                    Sierra Sur de Jaén, son extraídas en frío para preservar sus propiedades y sabores naturales,
+                    ofreciendo un producto excelente. Además, nos comprometemos con la sostenibilidad, cultivando
+                    nuestros olivos de manera respetuosa con el medio ambiente y promoviendo la biodiversidad. Nuestra
+                    pasión por el AOVE nos impulsa a compartir con ustedes el sabor y la esencia de nuestra tierra.</p>
+            </div>
+        </section>
+        <section class="container-xl p-5">
+            <h2 class="text-center my-5 fs-1 heading-galeria">Vive la experiencia</h2>
+
+            <ul class="row list-unstyled galeria ">
+                <li class="col-md-6 col-lg-4 ">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01 ">
+                        <img class="img-fluid imagen-optimizada-grid1" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
+                        <img class="img-fluid imagen-optimizada-grid2" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
+                        <img class="img-fluid imagen-optimizada-grid3" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
+                        <img class="img-fluid imagen-optimizada-grid4" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
+                        <img class="img-fluid imagen-optimizada-grid5" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
+                        <img class="img-fluid imagen-optimizada-grid6" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
+                        <img class="img-fluid imagen-optimizada-grid7" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
+                        <img class="img-fluid imagen-optimizada-grid8" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
+                        <img class="img-fluid imagen-optimizada-grid9" src="" alt="imagen galeria">
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+
+    </main>
+
+    <section class="direccion mb-5">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="logo2 img-fluid" src="" alt="logo2">
+                <p class="fw-bold fs-5 direccion-info text-center d-none d-md-block">Calle del Cerrillo, S/N,
+                    23690 Baeza, Jaén Tlf: 953 59 32 02
+                    flordeoroBaeza@gmail.com</p>
+                <ul class="menu2">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Quiénes somos</a></li>
+                    <li><a href="Elaboracion.html">Elaboración y productos</a></li>
+                    <li><a href="entorno.html">Baeza y su entorno</a></li>
+                    <li><a href="gastronomia.html">Gastronomía</a></li>
+                    <li><a href="tienda.html">Tienda online</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-xl mt-3">
+
+        <h2 class="text-center headin-tienda">Nuestra Coleccion</h2>
+
+        <div class="row mt-5">
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite1" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Extra Virgen</h3>
+                    <p>Aceite de oliva virgen extra, ideal para ensaladas y cocina en general. </p>
+                    <p class="fw-bold fs-3  producto-precio">29.99<span>€</span></p>
+                    <a class="d-block text-center p-2 text-uppercase fw-black" href="producto1.html">Ver
+                        Producto</a>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite2" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Orgánico</h3>
+                    <p>Aceite de oliva orgánico, sin pesticidas, perfecto para quiene buscan lo natural.</p>
+                    <p class="fw-bold fs-3 producto-precio">34.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto2.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite3" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Gourmet</h3>
+                    <p>Aceite de oliva de calidad superior, ideal para regalar o disfrutar en casa.</p>
+                    <p class="fw-bold fs-3 producto-precio">49.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto3.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite4" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Arbequina</h3>
+                    <p>Aceite de oliva Arbequina, suave y afrutado, ideal para pan y ensaladas.</p>
+                    <p class="fw-bold fs-3 producto-precio">25.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto4.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite5" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Picual</h3>
+                    <p>Aceite de oliva Picual, de sabor fuerte y afrutado, perfecto para cocinar.</p>
+                    <p class="fw-bold fs-3 producto-precio">31.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto5.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite6" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Hojiblanca</h3>
+                    <p>Aceite de oliva Hojiblanca, con un sabor equilibrado, ideal para todo tipo de platos.</p>
+                    <p class="fw-bold fs-3 producto-precio">27.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto6.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite7" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Coupage</h3>
+                    <p>Aceite de oliva Coupage, una mezcla perfecta de diferentes variedades de aceitunas.</p>
+                    <p class="fw-bold fs-3 producto-precio">36.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto7.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite8" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Sin Filtrar</h3>
+                    <p>Aceite de oliva sin filtrar, con un sabor intenso y auténtico.</p>
+                    <p class="fw-bold fs-3 producto-precio">39.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto8.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
+                <!-- disposicion de las columnas segun el dispositivos -->
+                <div class="col-4"> <!-- aplica en todos los tamaños -->
+                    <img class="img-producto img-fluid aceite9" src="" alt="Imagen aceite">
+                </div>
+                <div class="producto col-8">
+                    <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Premium</h3>
+                    <p class="procuto-contenido">Aceite de oliva premium, de las mejores olivas para un sabor único.</p>
+                    <p class="fw-bold fs-3 producto-precio">45.99<span>€</span></p>
+                    <a class=" d-block text-center p-2 text-uppercase fw-black" href="producto9.html">Ver
+                        Producto</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="elaboracion py-5 container-xl">
+
+        <h2 class="elaboracion-seccion py-2 fw-bold fs-1 text-center">Elaboración y productos</h2>
+
+        <div
+            class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
+            <div class="imagen col-md-6 order-md-last">
+                <img class="img-fluid maquinaria-optimizada1" src="" alt="imagen proceso">
+            </div>
+
+            <div class="texto col-md-6 ">
+                <h3 class="titulo-proceso my-5 fw-bold">Recepción de la aceituna</h3>
+                <p>La recepción de la aceituna es el primer paso en el proceso de la almazara. Se realiza una inspección
+                    detallada para asegurarse de que las aceitunas sean de buena calidad. Se revisan aspectos como su
+                    tamaño, color y madurez, ya que estos factores influyen directamente en el aceite final.
+                    Posteriormente, las aceitunas se pesan y se almacenan antes de ser procesadas.</p>
+            </div>
+        </div>
+
+        <div
+            class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
+            <div class="imagen col-md-6">
+                <img class="img-fluid maquinaria-optimizada2" src="" alt="imagen proceso">
+            </div>
+
+            <div class="texto col-md-6 ">
+                <h3 class="titulo-proceso my-5 fw-bold">Molienda de la aceituna</h3>
+                <p>La molienda de la aceituna es el proceso en el que se trituran las aceitunas para extraer su pulpa.
+                    Mediante un molino, se consigue una pasta aceitosa que será procesada en etapas posteriores para
+                    obtener el aceite. Es crucial que la molienda se realice con cuidado para preservar los componentes
+                    del aceite, garantizando la calidad del producto final. Este paso es esencial para obtener un aceite
+                    puro y con todas sus propiedades intactas.</p>
+            </div>
+        </div>
+
+
+        <div
+            class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
+            <div class="imagen col-md-6  order-md-last">
+                <img class="img-fluid maquinaria-optimizada3" src="" alt="imagen proceso">
+            </div>
+
+            <div class="texto col-md-6 ">
+                <h3 class="titulo-proceso my-5 fw-bold">Prensado del aceite</h3>
+                <p>El prensado del aceite es una de las etapas más críticas en la obtención de aceite de oliva de alta
+                    calidad. Durante este proceso, la pasta de aceitunas obtenida de la molienda se somete a una presión
+                    controlada para separar el aceite de las otras partes sólidas. Este paso es fundamental para extraer
+                    el aceite de manera eficiente sin perder sus propiedades organolépticas. El resultado es un aceite
+                    puro, con un sabor auténtico y un color característico que refleja la excelencia de la aceituna.</p>
+            </div>
+        </div>
+
+        <div
+            class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
+            <div class="imagen col-md-6">
+                <img class="img-fluid maquinaria-optimizada4" src="" alt="imagen proceso">
+            </div>
+
+            <div class="texto col-md-6 ">
+                <h3 class="titulo-proceso my-5 fw-bold">Envasado y distribución</h3>
+                <p>El envasado y la distribución del aceite de oliva es el último paso en su proceso de producción,
+                    garantizando que el producto llegue en perfectas condiciones al consumidor final. El aceite, una vez
+                    filtrado y analizado, se envasan en botellas o envases especialmente diseñados para preservar su
+                    calidad. Posteriormente, se distribuye a tiendas, mercados y consumidores, asegurando que cada
+                    botella conserve su frescura y sabor auténtico, reflejando el esfuerzo y dedicación puestos en cada
+                    etapa del proceso.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container-xl gastronomia-local">
+        <h2 class="gastronomia-local__heading mb-5 text-center">Gastronomía Local</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia2" src="" alt="Jamón, Queso y Aceite">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Jamón, Queso y Aceite</h3>
+                        <p class="card-text">Un clásico de la gastronomía baezana: jamón serrano de la Sierra de Segura,
+                            queso curado y un toque de aceite de oliva virgen extra.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia3" src="" alt="Remojón">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Remojón</h3>
+                        <p class="card-text">Ensalada tradicional con naranja, bacalao desmigado, huevo duro y un buen
+                            chorro de aceite de oliva virgen extra.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia4" src="" alt="Salmorejo">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Salmorejo</h3>
+                        <p class="card-text">Una crema fría de tomate, pan, ajo y aceite de oliva, servida con jamón y
+                            huevo duro. Una delicia refrescante.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia1" src="" alt="Tartar con Aceite">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Tartar con Aceite</h3>
+                        <p class="card-text">Delicado tartar de carne o pescado, aderezado con aceite de oliva virgen
+                            extra y toques de alcaparras y mostaza.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia5" src="" alt="Aceite Virgen Extra Mojado">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Aceite Virgen Extra Mojado</h3>
+                        <p class="card-text">Pan de pueblo empapado en aceite de oliva virgen extra de la tierra,
+                            acompañado de aceitunas aliñadas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia6" src="" alt="Aceite Picual y Pan">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Aceite Picual y Pan</h3>
+                        <p class="card-text">Un simple pero exquisito placer: pan crujiente mojado en aceite picual
+                            recién exprimido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia7" src="" alt="Conejo en Aceite">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Conejo en Aceite</h3>
+                        <p class="card-text">Tierna carne de conejo confitada lentamente en aceite de oliva virgen extra
+                            con ajo y hierbas aromáticas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia8" src="" alt="Aceite y Vino">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Aceite y Vino</h3>
+                        <p class="card-text">Una cata de aceites de la zona maridada con vinos locales para una
+                            experiencia única.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia9" src="" alt="Aceite Picual y Conejo">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Aceite Picual y Conejo</h3>
+                        <p class="card-text">Una versión especial del conejo en aceite, preparado con el mejor aceite
+                            picual de Baeza.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <img class="card-img-top img-fluid gastronomia10" src="" alt="Productos de la Zona">
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Productos de la Zona</h3>
+                        <p class="card-text">Una selección de los mejores productos locales: embutidos, quesos, pan
+                            artesano y, por supuesto, aceite de oliva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-5">
+        <div class="p-5 footer__row1 d-flex align-items-center justify-content-around">
+            <div class="footer__widget">
+                <img class="img-fluid d-none d-md-block footer__logo" src="" alt="Logo">
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" class="footer__link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__row2 d-flex p-5">
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo1" src="" alt="ministerio">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo2" src="" alt="eu">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo3" src="" alt="recuperacion">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo4" src="" alt="redes">
+            </div>
+        </div>
+        </div>
+
+        <p class="footer__copyright text-center fw-bold  m-0 p-3">Flor de Oro Todos los derechos Reservados@</p>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

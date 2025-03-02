@@ -1,0 +1,215 @@
+@use '../custom' as *;
+
+.gastronomia-local {
+    padding: 5rem;
+    background-color: #f0eeee;
+    border-radius: 8rem;
+
+    .gastronomia-local__heading {
+        font-weight: 900;
+        color: $marron;
+    }
+
+    .estrellas {
+        content: url(../img/estrellas.png);
+    }
+
+    .webp .estrellas {
+        content: url(../img/estrellas.webp);
+    }
+
+    .avif .estrellas {
+        content: url(../img/estrellas.avif);
+    }
+
+
+    .gastronomia1 {
+        content: url(../img/coop2.jpg);
+
+    }
+
+    .webp .gastronomia1 {
+        content: url(../img/coop2.webp);
+
+    }
+
+    .avif .gastronomia1 {
+        content: url(../img/coop2.avif);
+
+    }
+
+
+    .gastronomia2 {
+        content: url(../img/coop4.jpg);
+
+    }
+
+    .webp .gastronomia2 {
+        content: url(../img/coop4.webp);
+
+    }
+
+    .avif .gastronomia2 {
+        content: url(../img/coop4.avif);
+
+    }
+
+
+    .gastronomia3 {
+        content: url(../img/coop12.jpg);
+
+    }
+
+    .webp .gastronomia3 {
+        content: url(../img/coop12.webp);
+
+    }
+
+    .avif .gastronomia3 {
+        content: url(../img/coop12.avif);
+
+    }
+
+
+    .gastronomia4 {
+        content: url(../img/coop15.jpg);
+
+    }
+
+    .webp .gastronomia4 {
+        content: url(../img/coop15.webp);
+
+    }
+
+    .avif .gastronomia4 {
+        content: url(../img/coop15.avif);
+
+    }
+
+
+    .gastronomia5 {
+        content: url(../img/coop16.jpg);
+
+    }
+
+    .webp .gastronomia5 {
+        content: url(../img/coop16.webp);
+
+    }
+
+    .avif .gastronomia5 {
+        content: url(../img/coop16.avif);
+
+    }
+
+    .gastronomia6 {
+        content: url(../img/coop17.jpg);
+
+    }
+
+    .webp .gastronomia6 {
+        content: url(../img/coop17.webp);
+
+    }
+
+    .avif .gastronomia6 {
+        content: url(../img/coop17.avif);
+
+    }
+
+
+    .gastronomia7 {
+        content: url(../img/coop19.jpg);
+
+    }
+
+    .webp .gastronomia7 {
+        content: url(../img/coop19.webp);
+
+    }
+
+    .avif .gastronomia7 {
+        content: url(../img/coop19.avif);
+
+    }
+
+
+
+    .gastronomia8 {
+        content: url(../img/coop24.jpg);
+
+    }
+
+    .webp .gastronomia8 {
+        content: url(../img/coop24.webp);
+
+    }
+
+    .avif .gastronomia8 {
+        content: url(../img/coop24.avif);
+
+    }
+
+    .gastronomia9 {
+        content: url(../img/coop24.jpg);
+
+    }
+
+    .webp .gastronomia9 {
+        content: url(../img/coop24.webp);
+
+    }
+
+    .avif .gastronomia9 {
+        content: url(../img/coop24.avif);
+
+    }
+
+
+    .gastronomia9 {
+        content: url(../img/coop38.jpg);
+
+    }
+
+    .webp .gastronomia9 {
+        content: url(../img/coop38.webp);
+
+    }
+
+    .avif .gastronomia9 {
+        content: url(../img/coop38.avif);
+
+    }
+
+    .gastronomia10 {
+        content: url(../img/coop37.jpg);
+
+    }
+
+    .webp .gastronomia10 {
+        content: url(../img/coop37.webp);
+
+    }
+
+    .avif .gastronomia10 {
+        content: url(../img/coop37.avif);
+
+    }
+
+
+    .gastronomia {
+        .gastronomia-contenido {
+            overflow: hidden;
+
+            /* Evita que la imagen se desborde */
+            img {
+                transition: transform 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+
+}

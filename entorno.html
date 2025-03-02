@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor de Oro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/css/img.css">
+    <link rel="shortcut icon" href="build/img/olive.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <!-- Estilo de Leaflet -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+      <!-- Incluir la librería de Leaflet -->
+      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!--     <link rel="stylesheet" href="build/css/app.min.css"> --> <!-- css mimificada -->
+</head>
+
+<body>
+    <header class="py-5 header4">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="nosotros.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Elaboracion.html">Elaboracion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="entorno.html">Baeza</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda Online
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="tienda.html">Aceites</a></li>
+                                    <li><a class="dropdown-item" href="gastronomia.html">Gastronomia</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class=" d-flex d-lg-none">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos"
+                                aria-label="Buscar">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <img class="header-aceite" src="build/img/animacion.png" alt="Imagen headers">
+
+        </div>
+
+        <div class="container-xl mt-5">
+            <div class="d-flex justify-content-center ">
+                <div class="col-6 col-md-3">
+                    <h3 class="heading">
+                        Descubre nuestro Aceite de oliva virgen extra Flor de Oro
+                    </h3>
+                </div>
+            </div>
+            <div class="heading-data d-flex flex-column align-items-start">
+                <a class="telefono" href="tel:953 593 202"><i class="fas fa-phone-alt"></i> 953 593 202</a>
+                <a class="correo" href="mailto:administracion@aoveflordeoro.com"><i class="fas fa-envelope"></i>
+                    administracion@aoveflordeoro.com</a>
+            </div>
+        </div>
+    </header>
+    <main class="container-xl mt-5">
+
+        <section class="container-xl p-5">
+            <h2 class="text-center my-5 fs-1 heading-galeria">Vive la experiencia</h2>
+
+            <ul class="row list-unstyled galeria ">
+                <li class="col-md-6 col-lg-4 ">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01 ">
+                        <img class="img-fluid imagen-optimizada-grid1" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
+                        <img class="img-fluid imagen-optimizada-grid2" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
+                        <img class="img-fluid imagen-optimizada-grid3" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
+                        <img class="img-fluid imagen-optimizada-grid4" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
+                        <img class="img-fluid imagen-optimizada-grid5" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
+                        <img class="img-fluid imagen-optimizada-grid6" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
+                        <img class="img-fluid imagen-optimizada-grid7" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
+                        <img class="img-fluid imagen-optimizada-grid8" src="" alt="imagen galeria">
+                    </a>
+                </li>
+                <li class="col-md-6 col-lg-4 list-unstyled">
+                    <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
+                        <img class="img-fluid imagen-optimizada-grid9" src="" alt="imagen galeria">
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+
+    </main>
+
+    <section class="direccion mb-5">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="logo2 img-fluid" src="" alt="logo2">
+                <p class="fw-bold fs-5 direccion-info text-center d-none d-md-block">Calle del Cerrillo, S/N,
+                    23690 Baeza, Jaén Tlf: 953 59 32 02
+                    flordeoroBaeza@gmail.com</p>
+                <ul class="menu2">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Quiénes somos</a></li>
+                    <li><a href="Elaboracion.html">Elaboración y productos</a></li>
+                    <li><a href="entorno.html">Baeza y su entorno</a></li>
+                    <li><a href="gastronomia.html">Gastronomía</a></li>
+                    <li><a href="tienda.html">Tienda online</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="localizacion">
+        <div id="map"></div>
+    </section>
+
+
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="p-5 footer__row1 d-flex align-items-center justify-content-around">
+            <div class="footer__widget">
+                <img class="img-fluid d-none d-md-block footer__logo" src="" alt="Logo">
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" class="footer__link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__row2 d-flex p-5">
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo1" src="" alt="ministerio">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo2" src="" alt="eu">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo3" src="" alt="recuperacion">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo4" src="" alt="redes">
+            </div>
+        </div>
+        </div>
+
+        <p class="footer__copyright text-center fw-bold  m-0 p-3">Flor de Oro Todos los derechos Reservados@</p>
+    </footer>
+
+
+    <script src="js/mapa.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

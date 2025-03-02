@@ -1,0 +1,76 @@
+@use '../custom' as *;
+
+.elaboracion {
+
+
+    .maquinaria-optimizada1 {
+        content: url(../img/coop11.jpg);
+    }
+
+    .webp .maquinaria-optimizada1 {
+        content: url(../img/coop11.webp);
+    }
+
+    .avif .maquinaria-optimizada1 {
+        content: url(../img/coop11.avif);
+    }
+
+
+
+    .maquinaria-optimizada2 {
+        content: url(../img/coop5.jpg);
+    }
+
+    .webp .maquinaria-optimizada2 {
+        content: url(../img/coop5.webp);
+    }
+
+    .avif .maquinaria-optimizada2 {
+        content: url(../img/coop5.avif);
+    }
+
+
+    .maquinaria-optimizada3 {
+        content: url(../img/coop9.jpg);
+    }
+
+    .webp .maquinaria-optimizada3 {
+        content: url(../img/coop9.webp);
+    }
+
+    .avif .maquinaria-optimizada3 {
+        content: url(../img/coop9.avif);
+    }
+
+
+    .maquinaria-optimizada4 {
+        content: url(../img/coop14.jpg);
+    }
+
+    .webp .maquinaria-optimizada4 {
+        content: url(../img/coop14.webp);
+    }
+
+    .avif .maquinaria-optimizada4 {
+        content: url(../img/coop14.avif);
+    }
+
+    .titulo-proceso {
+        color: $verde;
+        margin: 0;
+        text-align: left;
+    }
+
+    .titulo-proceso::after {
+        content: '';
+        display: block;
+        width: 50%;
+        height: 5px;
+        background-color: $marron;
+    }
+
+    .elaboracion-seccion {
+        color: $marron;
+        
+    }
+}

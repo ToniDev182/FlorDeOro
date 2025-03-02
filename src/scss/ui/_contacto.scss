@@ -1,0 +1,38 @@
+@use '../custom' as *;
+
+.contacto-heading {
+    font-weight: 900;
+    font-size: 4rem;
+    color: $marron;
+}
+
+.formulario {
+    .form-group {
+        padding: 0.5rem;
+
+        label {
+            color: $verde;
+            font-weight: 700;
+        }
+
+        input,
+        .form-control {
+
+            border: 0.1rem solid $verde;
+        }
+
+    }
+
+    .btn {
+        background-color: $verde;
+        border: none;
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+        &:hover {
+            color: $dorado;
+            background-color: $verde;
+            transform: scale(1.1);
+        }
+    }
+
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor de Oro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/css/img.css">
+    <link rel="shortcut icon" href="build/img/olive.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--     <link rel="stylesheet" href="build/css/app.min.css"> --> <!-- css mimificada -->
+</head>
+
+<body>
+    <header class="py-5 header7">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="nosotros.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Elaboracion.html">Elaboracion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="entorno.html">Baeza</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda Online
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="tienda.html">Aceites</a></li>
+                                    <li><a class="dropdown-item" href="gastronomia.html">Gastronomia</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class=" d-flex d-lg-none">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos"
+                                aria-label="Buscar">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <img class="header-aceite" src="build/img/animacion.png" alt="Imagen headers">
+
+        </div>
+
+        <div class="container-xl mt-5">
+            <div class="d-flex justify-content-center ">
+                <div class="col-6 col-md-3">
+                    <h3 class="heading">
+                        Descubre nuestro Aceite de oliva virgen extra Flor de Oro
+                    </h3>
+                </div>
+            </div>
+            <div class="heading-data d-flex flex-column align-items-start">
+                <a class="telefono" href="tel:953 593 202"><i class="fas fa-phone-alt"></i> 953 593 202</a>
+                <a class="correo" href="mailto:administracion@aoveflordeoro.com"><i class="fas fa-envelope"></i>
+                    administracion@aoveflordeoro.com</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="container-xl mt-5">
+        <h2 class="contacto-heading text-center m-5">Contacta con Nosotros</h2>
+        <div class="container ">
+            <div
+                class="contenido-contacto d-flex flex-column-reverse flex-md-row justify-content-around align-items-center g-4">
+                <form class="formulario col-md-4">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="duda">¿Cuál es tu duda o consulta?</label>
+                        <input type="text" class="form-control" id="duda" placeholder="Escribe tu consulta aquí..."
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interes">Sobre Nuestra Almazara</label>
+                        <select class="form-control" id="interes" required>
+                            <option value="" disabled selected>-- Selecciona un tema --</option>
+                            <option value="produccion">Producción de aceite</option>
+                            <option value="variedades">Variedades de aceite</option>
+                            <option value="visitas">Visitas a la almazara</option>
+                            <option value="comprar">Comprar aceite</option>
+                            <option value="envios">Envíos y entregas</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cantidad">Cantidad de personas para visita</label>
+                        <input type="number" class="form-control" id="cantidad" placeholder="Número de personas" min="1"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fecha">Fecha de la visita</label>
+                        <input type="date" class="form-control" id="fecha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hora">Hora preferida</label>
+                        <input type="time" class="form-control" id="hora" min="09:00" max="18:00" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary m-3">Enviar consulta</button>
+                </form>
+                <div class="col-md-8 mx-5 w-md-50">
+                    <div class="d-flex justify-content-center">
+                        <img class=" img-fluid form_log" src="" alt="">
+                    </div>
+                    <p>
+
+                    <h3>Información sobre las consultas y visitas </h3>
+
+                    <h5> ¡Gracias por tu interés en nuestra almazara! Antes de enviarnos tu consulta, ten en cuenta lo
+                        siguiente: </h5>
+                    <ul>
+                        <li> ✅ Horarios de atención: Respondemos consultas de lunes a viernes, de 9:00 a 18:00 horas.
+                        </li>
+                        <li> ✅ Visitas a la almazara: Se realizan bajo reserva previa y en grupos limitados. Asegúrate
+                            de
+                            elegir una fecha y hora disponibles en el formulario. </li>
+                        <li> ✅ Consultas sobre aceite: Puedes preguntarnos sobre nuestro proceso de producción,
+                            variedades de
+                            aceite, opciones de compra y envíos. </li>
+                        <li> ✅ Tiempo de respuesta: Intentamos responder todas las consultas en un máximo de 48 horas.
+                        </li>
+                    </ul>
+                    Si tienes una consulta urgente, puedes llamarnos al 📞 [Número de contacto] durante nuestro
+                    horario de atención.
+
+                    ¡Esperamos tu mensaje y estaremos encantados de atenderte! 🫒✨</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="p-5 footer__row1 d-flex align-items-center justify-content-around">
+            <div class="footer__widget">
+                <img class="img-fluid d-none d-md-block footer__logo" src="" alt="Logo">
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" class="footer__link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__row2 d-flex p-5">
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo1" src="" alt="ministerio">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo2" src="" alt="eu">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo3" src="" alt="recuperacion">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo4" src="" alt="redes">
+            </div>
+        </div>
+        </div>
+
+        <p class="footer__copyright text-center fw-bold  m-0 p-3">Flor de Oro Todos los derechos Reservados@</p>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

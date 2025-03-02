@@ -1,0 +1,64 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+$marron: #c4a64c;
+$marron_claro: #fee69d;
+$verde: #3B5A2B;
+$rojo_vino: #800020;
+$dorado: #FFD700;
+$blanco: #FFFFFF;
+$dark: #1d1d1d;  
+
+
+
+// colores
+
+$primary: $verde;
+$white: $blanco;
+$secondary: $marron;
+$active: $dark;
+
+// Tipografía
+
+$fuente-headings: 'Outfit', sans-serif;
+$fuente-textos: 'Outfit', sans-serif;
+
+
+$headings-font-family: $fuente-headings;
+$font-family-base: $fuente-textos;
+
+$headings-font-weight: 900;
+
+$h1-font-size: 4.4rem;
+$h2-font-size: 3.6rem;
+$h3-font-size: 2.6rem;
+$headings-color: $primary;
+
+// Botones
+
+$btn-font-weight: 900;
+$btn-border-radius: 0;
+$btn-background-color: $verde; // Verde para los botones
+$btn-hover-background-color: $dorado; // Dorado al hacer hover
+
+//links
+
+$link-color: $white; // color de los enlaces 
+$link-decoration: none; // decoracion de los enlaces
+$link-hover-color: $dorado; // color del texto al hacer hover sobre el enlace
+
+
+// Cards 
+$card-border-radius: 0; /* eleminamos esquinas redondeadas de las targetas */
+$card-border-width: 0; /* Elimina el borde de la targeta */
+$card-background-color: $blanco; // Fondo blanco o $marron
+
+
+// inputs
+
+$input-border-radius: 1rem;
+$input-border-color: $marron; // Borde de input marrón
+
+
+
+

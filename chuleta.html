@@ -1,0 +1,62 @@
+<!-- Crear Pakcage.json -->
+<!-- npm init intalar todas las dependencias-->
+<!-- descripcion bootstrap5 sass y gulp -->
+<!-- nombre autor -->
+
+
+<!-- Instalar dependencia de SASS -->
+<!-- npm install para instalar dependencias -->
+<!-- npm i --save-dev sass (Para compilar las ojas de estilos)-->
+<!-- si usamos gulp el comando completo seria : npm i --save-dev sass gulp-sass -->
+<!-- intalamos gulp: npm i --save-dev gulp -->
+<!-- Esto nos dará tener acceso a toda la api de gulp para compilar la hoja de estilos y guardarla , lo que conecta tanto gulp como sas, es gulp-sass en el packge.json   "gulp-sass": "^6.0.0",-->
+
+<!-- Preparacion del Gulp cli de manera global npm i -g gulp-cli -->
+
+<!-- Creamos gulpfile.js -->
+<!-- npm install --save-dev gulp-purgecss
+ -->
+<!-- npm install --save-dev gulp-rename
+ -->
+<!-- npm install --save-dev gulp-clean-css
+ -->
+<!-- npm install --save-dev gulp-imagemin
+ -->
+<!-- Cuando tengamos dicho archivo creado al 100% simplemente hay que escribir gulp en consola -->
+<!-- tambien vale npm run dev -->
+
+<!-- de esta manera compilamos nuestra hoja de estilos de sass (ya tenemos un workflow profesional) -->
+
+<!-- ahora instalamos bootstrap npm i --save-dev bootstrap -->
+
+
+<!-- creamos en ui el archivo _custom.scss para reescribir las varibles de bootstrap -->
+<!-- @import '../../node_modules/bootstrap/scss/bootstrap.scss'; -->
+
+<!-- en el index.scss usamos @forward 'header'; -->
+
+<!-- En el header importamos custom -->
+<!-- @use '../custom' as *; -->
+
+<!-- ejecutamos gulp dev que es nuestra tarea de gulp que nos va acompilar bootstrap -->
+
+
+<!-- en app.scss hay que hacer un import de la carpta @import 'ui'; -->
+
+
+<!-- en ultimo lugar vamos  a eliminar todo el codigo no necesario mediante las siguietnes dependencias-->
+
+<!-- npm i --save-dev gulp-purgecss gulp-rename
+ -->
+
+
+
+<!-- 
+ 
+sm → ≥576px
+md → ≥768px
+lg → ≥992px
+xl → ≥1200px
+xxl → ≥1400px
+ 
+ -->

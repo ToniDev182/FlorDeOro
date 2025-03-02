@@ -1,0 +1,54 @@
+@use '../custom' as *;
+@use '../base/mixins' as m;
+
+.footer__logo1 {
+    content: url(../img/ministerio.png);
+}
+
+.footer__logo2 {
+    content: url(../img/eu.png);
+}
+
+.footer__logo3 {
+    content: url(../img/recuperacion.png);
+}
+
+.footer__logo4 {
+    content: url(../img/redes.png);
+}
+
+.footer__logo {
+    content: url(../img/logo.gif);
+}
+
+.footer__row2 {
+    @include m.background-image('../img/coop25.jpg');
+
+
+}
+
+.webp .footer__row2 {
+    @include m.background-image('../img/coop25.webp');
+}
+
+.avif .footer__row2 {
+    @include m.background-image('../img/coop25.avif');
+}
+
+.form_log {
+    content: url(../img/logo.gif);
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: $verde;
+    font-weight: bold;
+
+    &:hover {
+        color: $dark;
+    }
+}
+
+.footer__copyright {
+    background-color: $verde;
+}

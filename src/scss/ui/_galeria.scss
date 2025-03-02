@@ -1,0 +1,198 @@
+@use '../custom' as *;
+
+
+.imagen-optimizada-grid1 {
+    content: url(../img/coop34.jpg);
+
+}
+
+.webp .imagen-optimizada-grid1 {
+    content: url(../img/coop34.webp);
+}
+
+.avif .imagen-optimizada-grid1 {
+    content: url(../img/coop34.avif);
+}
+
+
+.imagen-optimizada-grid2 {
+    content: url(../img/coop27.jpg);
+
+}
+
+.webp .imagen-optimizada-grid2 {
+    content: url(../img/coop27.webp);
+}
+
+.avif .imagen-optimizada-grid2 {
+    content: url(../img/coop27.avif);
+}
+
+
+.imagen-optimizada-grid3 {
+    content: url(../img/coop25.jpg);
+
+}
+
+.webp .imagen-optimizada-grid3 {
+    content: url(../img/coop25.webp);
+}
+
+.avif .imagen-optimizada-grid3 {
+    content: url(../img/coop25.avif);
+}
+
+
+
+.imagen-optimizada-grid4 {
+    content: url(../img/coop39.jpg);
+
+}
+
+.webp .imagen-optimizada-grid4 {
+    content: url(../img/coop39.webp);
+}
+
+.avif .imagen-optimizada-grid4 {
+    content: url(../img/coop39.avif);
+}
+
+
+
+.imagen-optimizada-grid5 {
+    content: url(../img/coop33.jpg);
+
+}
+
+.webp .imagen-optimizada-grid5 {
+    content: url(../img/coop33.webp);
+}
+
+.avif .imagen-optimizada-grid5 {
+    content: url(../img/coop33.avif);
+}
+
+
+.imagen-optimizada-grid6 {
+    content: url(../img/coop32.jpg);
+
+}
+
+.webp .imagen-optimizada-grid6 {
+    content: url(../img/coop32.webp);
+}
+
+.avif .imagen-optimizada-grid6 {
+    content: url(../img/coop32.avif);
+}
+
+
+.imagen-optimizada-grid7 {
+    content: url(../img/coop31.jpg);
+
+}
+
+.webp .imagen-optimizada-grid7 {
+    content: url(../img/coop31.webp);
+}
+
+.avif .imagen-optimizada-grid7 {
+    content: url(../img/coop31.avif);
+}
+
+
+.imagen-optimizada-grid8 {
+    content: url(../img/coop30.jpg);
+
+}
+
+.webp .imagen-optimizada-grid8 {
+    content: url(../img/coop30.webp);
+}
+
+.avif .imagen-optimizada-grid8 {
+    content: url(../img/coop30.avif);
+}
+
+
+.imagen-optimizada-grid9 {
+    content: url(../img/coop21.jpg);
+
+}
+
+.webp .imagen-optimizada-grid9 {
+    content: url(../img/coop21.webp);
+}
+
+.avif .imagen-optimizada-grid9 {
+    content: url(../img/coop21.avif);
+}
+
+// Ocultar el último hijo en pantallas más pequeñas
+@media (max-width: 998px) { // Ajusta el tamaño según lo necesites
+    .imagen-optimizada-grid9:last-child {
+        display: none;
+    }
+}
+
+.galeria li {
+    margin-bottom: 1rem;
+}
+
+.heading-galeria{
+    text-align: justify;
+    color: $marron;
+    font-weight: 900;
+    
+}
+
+.heading{
+    color: $marron_claro ;
+}
+
+/* Mapa */
+
+.localizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#map {
+
+    height: 25rem;
+    width: 40rem;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.leaflet-popup-content {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.leaflet-popup-content img {
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+.leaflet-popup-content a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: background 0.3s ease;
+}
+
+.leaflet-popup-content a:hover {
+    background: #0056b3;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor de Oro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/css/img.css">
+    <link rel="shortcut icon" href="build/img/olive.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--     <link rel="stylesheet" href="build/css/app.min.css"> --> <!-- css mimificada -->
+</head>
+
+<body>
+    <header class="py-5 header5">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="nosotros.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Elaboracion.html">Elaboracion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="entorno.html">Baeza</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tienda Online
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item " href="tienda.html">Aceites</a></li>
+                                    <li><a class="dropdown-item" href="gastronomia.html">Gastronomia</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class=" d-flex d-lg-none">
+                            <input class="form-control me-2" type="search" placeholder="Buscar productos"
+                                aria-label="Buscar">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <img class="header-aceite" src="build/img/animacion.png" alt="Imagen headers">
+
+        </div>
+
+        <div class="container-xl mt-5">
+            <div class="d-flex justify-content-center ">
+                <div class="col-6 col-md-3">
+                    <h3 class="heading">
+                        Descubre nuestro Aceite de oliva virgen extra Flor de Oro
+                    </h3>
+                </div>
+            </div>
+            <div class="heading-data d-flex flex-column align-items-start">
+                <a class="telefono" href="tel:953 593 202"><i class="fas fa-phone-alt"></i> 953 593 202</a>
+                <a class="correo" href="mailto:administracion@aoveflordeoro.com"><i class="fas fa-envelope"></i>
+                    administracion@aoveflordeoro.com</a>
+            </div>
+        </div>
+    </header>
+    <main class="container-xl mt-5">
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-4 col-md-2"> <!-- aplica en todos los tamaños -->
+                <img class="img-fluid img-producto aceite7" src="" alt="Imagen aceite">
+            </div>
+            <div class="producto col-8 col-md-4">
+                <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Coupage</h3>
+                <p>Aceite de oliva Coupage, una mezcla perfecta de diferentes variedades de aceitunas.</p>
+                <p class=" fw-black producto-precio fs-3 ">36.99<span>€</span></p>
+                <form class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="form-label">Cantidad</label>
+                            <select class="form-control">
+                                <option value="">-- Seleccione --</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12 d-grid"> <!-- d-grid para que tome todo el ancho disponible -->
+                        <input type="submit" value="Agregar al Carrito"
+                            class="btn btn-primary text-white text-uppercase fs-6 mt-4">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="p-5 footer__row1 d-flex align-items-center justify-content-around">
+            <div class="footer__widget">
+                <img class="img-fluid d-none d-md-block footer__logo" src="" alt="Logo">
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" class="footer__link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <nav class="footer_nav">
+                    <a href="#" target="_blank" class="footer__link">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__row2 d-flex p-5">
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo1" src="" alt="ministerio">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo2" src="" alt="eu">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo3" src="" alt="recuperacion">
+            </div>
+
+            <div class="footer__widget">
+                <img class="img-fluid footer__logo4" src="" alt="redes">
+            </div>
+        </div>
+        </div>
+
+        <p class="footer__copyright text-center fw-bold  m-0 p-3">Flor de Oro Todos los derechos Reservados@</p>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
