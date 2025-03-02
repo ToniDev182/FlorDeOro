@@ -45,7 +45,19 @@ Bienvenido al repositorio de **FlorDeOro**, el sitio web de una almazara de acei
 
 ## 📸 Capturas de Pantalla
 
-![Captura de Pantalla](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(1).png)
+
+![Captura 1](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(8).png)
+![Captura 2](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(1).png)
+![Captura 3](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(10).png)
+![Captura 4](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(5).png)
+![Captura 5](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(2).png)
+![Captura 6](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(11).png)
+![Captura 7](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(9).png)
+![Captura 8](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(4).png)
+![Captura 9](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(7).png)
+![Captura 10](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(6).png)
+![Captura 11](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(12).png)
+![Captura 12](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(3).png)
 
 ## 📦 Instalación y Configuración
 
@@ -64,7 +76,6 @@ gulp
 4️⃣ Abre `index.html` en tu navegador o usa un servidor local como Live Server.
 ```
 📩 **Contacto**  
-Si tienes dudas o sugerencias, no dudes en contactarnos.
 
 📧 **Email**: [a.atienza.cluster@gmail.com](mailto:a.atienza.cluster@gmail.com)  
 🔗 **Repositorio**: [GitHub - FlorDeOro](https://github.com/FlorDeOro)
