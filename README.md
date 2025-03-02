@@ -45,7 +45,7 @@ Bienvenido al repositorio de **FlorDeOro**, el sitio web de una almazara de acei
 
 ## 📸 Capturas de Pantalla
 
-*Añade aquí capturas de pantalla del sitio web para una mejor visualización.*
+![Captura de Pantalla](https://github.com/ToniDev182/FlorDeOro/blob/master/flor_de_oroVista/FlorDeOro%20(1).png)
 
 ## 📦 Instalación y Configuración
 
@@ -62,7 +62,7 @@ npm install
 gulp
 
 4️⃣ Abre `index.html` en tu navegador o usa un servidor local como Live Server.
-
+```
 📩 **Contacto**  
 Si tienes dudas o sugerencias, no dudes en contactarnos.
 
