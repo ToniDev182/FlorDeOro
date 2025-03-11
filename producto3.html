@@ -74,8 +74,6 @@
                     </div>
                 </div>
             </nav>
-            <img class="header-aceite" src="build/img/animacion.png" alt="Imagen headers">
-
         </div>
 
         <div class="container-xl mt-5">
@@ -97,7 +95,11 @@
 
         <div class="row justify-content-center align-items-center">
             <div class="col-4 col-md-2"> <!-- aplica en todos los tamaños -->
-                <img class="img-fluid img-producto aceite3" src="" alt="Imagen aceite">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="build/img/aceite3-md.avif">
+                    <source media="(max-width: 599px)" srcset="build/img/aceite3-ms.avif">
+                    <img class="img-fluid" src="build/img/aceite3.png" alt="imagen galeria">
+                </picture>
             </div>
             <div class="producto col-8 col-md-4">
                 <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Gourmet</h3>

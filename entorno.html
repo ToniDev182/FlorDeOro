@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="build/css/img.css">
     <link rel="shortcut icon" href="build/img/olive.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-      <!-- Estilo de Leaflet -->
-      <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-      <!-- Incluir la librería de Leaflet -->
-      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Estilo de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Incluir la librería de Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
     <!--     <link rel="stylesheet" href="build/css/app.min.css"> --> <!-- css mimificada -->
 </head>
@@ -105,53 +105,88 @@
             <ul class="row list-unstyled galeria ">
                 <li class="col-md-6 col-lg-4 ">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01 ">
-                        <img class="img-fluid imagen-optimizada-grid1" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop27-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop27-ms.avif">
+                            <img class="img-fluid" src="build/img/coop27.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
-                        <img class="img-fluid imagen-optimizada-grid2" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop24-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop24-ms.avif">
+                            <img class="img-fluid" src="build/img/coop24.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
-                        <img class="img-fluid imagen-optimizada-grid3" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop38-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop38-ms.avif">
+                            <img class="img-fluid" src="build/img/coop38-md.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
-                        <img class="img-fluid imagen-optimizada-grid4" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop33-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop33-ms.avif">
+                            <img class="img-fluid" src="build/img/coop33.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
-                        <img class="img-fluid imagen-optimizada-grid5" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop32-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop32-ms.avif">
+                            <img class="img-fluid" src="build/img/coop32.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
-                        <img class="img-fluid imagen-optimizada-grid6" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop31-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop31-ms.avif">
+                            <img class="img-fluid" src="build/img/coop31.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
-                        <img class="img-fluid imagen-optimizada-grid7" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop30-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop30-ms.avif">
+                            <img class="img-fluid" src="build/img/coop30.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
-                        <img class="img-fluid imagen-optimizada-grid8" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop21-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop21-ms.avif">
+                            <img class="img-fluid" src="build/img/coop21.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
-                        <img class="img-fluid imagen-optimizada-grid9" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop27-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop27-ms.avif">
+                            <img class="img-fluid" src="build/img/coop27.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
 
             </ul>
         </section>
-
     </main>
 
     <section class="direccion mb-5">
@@ -174,7 +209,7 @@
         </div>
     </section>
 
-    
+
     <section class="localizacion">
         <div id="map"></div>
     </section>
@@ -235,7 +270,7 @@
     </footer>
 
 
-    <script src="js/mapa.js" ></script>
+    <script src="js/mapa.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>

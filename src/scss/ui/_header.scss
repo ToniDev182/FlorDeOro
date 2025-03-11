@@ -2,11 +2,19 @@
 @use '../base/mixins' as m;
 @use '../base/animaciones' as *;
 
+body {
+    background:
+        url(../../../build/img/trama.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+}
+
 
 .navbar {
     position: relative;
-   
+
     z-index: 100;
+
     .navbar-brand {
         color: $white;
     }
@@ -28,12 +36,12 @@
     }
 
     .dropdown-menu {
-        background-color: #3b5a2bb9;
+        background-color: rgba(255, 255, 255, 0.5);
         font-weight: bold;
     }
 
     .dropdown-item {
-        color: $white;
+        color: $dark;
         font-weight: bold;
 
         &:hover {
@@ -68,363 +76,279 @@
         }
     }
 
+    .navbar-nav .nav-item {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 0.5rem;
+        margin: 0.5rem;
+
+        &:hover {
+            background-color: $verde;
+            color: $white;
+        }
+    }
+
 }
 
-.header{
-   @include m.background-image('../../build/img/coop33.jpg');
-   position: relative;
+.header {
+    @include m.background-image('../../build/img/coop33-md.avif');
+    position: relative;
     background-size: cover;
     background-position: center;
     width: 100%;
 
-    .header-aceite{
+    .header-aceite {
         display: none;
 
         @include media-breakpoint-up(lg) {
             display: block;
-            /* mostramos la guitarra en una pantalla grande */
+
             position: absolute;
             right: 0;
-            /* la coloca del ladoº derecho */
             bottom: 0;
             width: 20rem;
             height: 40rem;
-            /* la coloca arriba */
             animation-duration: 1s;
-            /* Cuanto va a durar la animacion */
-            animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-            animation-timing-function: ease-in-out; /* transicion */
-            animation-name: animarImagen; /* min 30 */
-            /* Llamamos a la animacion de la imagen */
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+
         }
     }
 
-    @include media-breakpoint-up(lg){
+    @include media-breakpoint-up(lg) {
         min-height: 100vh;
     }
 }
 
-.webp .header {
-    @include m.background-image('../img/coop33.webp');
-}
 
-.avif .header {
-    @include m.background-image('../img/coop33.avif');
-}
-
-.header2{
+.header2 {
     @include m.background-image('../img/coop27.jpg');
     position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header2 {
-     @include m.background-image('../img/coop27.webp');
- }
- 
- .avif .header2 {
-     @include m.background-image('../img/coop27.avif');
- }
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 
+    .header-aceite {
+        display: none;
 
- .header3{
-    @include m.background-image('../img/coop21.jpg');
-    position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header3 {
-     @include m.background-image('../img/coop21.webp');
- }
- 
- .avif .header3 {
-     @include m.background-image('../img/coop21.avif');
- }
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
 
+        }
+    }
 
-
- .header4{
-    @include m.background-image('../img/coop31.jpg');
-    position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header4 {
-     @include m.background-image('../img/coop31.webp');
- }
- 
- .avif .header4 {
-     @include m.background-image('../img/coop31.avif');
- }
-
-
- .header5{
-    @include m.background-image('../img/coop20.jpg');
-    position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header5 {
-     @include m.background-image('../img/coop20.webp');
- }
- 
- .avif .header5 {
-     @include m.background-image('../img/coop20.avif');
- }
-
-
- 
- .header6{
-    @include m.background-image('../img/coop34.jpg');
-    position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header6 {
-     @include m.background-image('../img/coop34.webp');
- }
- 
- .avif .header6 {
-     @include m.background-image('../img/coop34.avif');
- }
-
-
- .header7{
-    @include m.background-image('../img/coop32.jpg');
-    position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header7 {
-     @include m.background-image('../img/coop32.webp');
- }
- 
- .avif .header7 {
-     @include m.background-image('../img/coop32.avif');
- }
-
- .header8{
-    @include m.background-image('../img/coop23.jpg');
-    position: relative;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
- 
-     .header-aceite{
-         display: none;
- 
-         @include media-breakpoint-up(lg) {
-             display: block;
-             /* mostramos la guitarra en una pantalla grande */
-             position: absolute;
-             right: 0;
-             /* la coloca del ladoº derecho */
-             bottom: 0;
-             width: 20rem;
-             height: 40rem;
-             /* la coloca arriba */
-             animation-duration: 1s;
-             /* Cuanto va a durar la animacion */
-             animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-             animation-timing-function: ease-in-out; /* transicion */
-             animation-name: animarImagen; /* min 30 */
-             /* Llamamos a la animacion de la imagen */
-         }
-     }
- 
-     @include media-breakpoint-up(lg){
-         min-height: 100vh;
-     }
- }
- 
- .webp .header8 {
-     @include m.background-image('../img/coop23.webp');
- }
- 
- .avif .header8 {
-     @include m.background-image('../img/coop23.avif');
- }
-
-.heading-data {
-  
-  
-    a {
-        text-decoration: none;
-        color: $white; 
-        font-weight: bold;
-    
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
     }
 }
 
-.heading{
+
+
+.header3 {
+    @include m.background-image('../img/coop21.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    .header-aceite {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+}
+
+
+
+
+.header4 {
+    @include m.background-image('../img/coop31.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    .header-aceite {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+}
+
+
+
+.header5 {
+    @include m.background-image('../img/coop20.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    .header-aceite {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+}
+
+
+.header6 {
+    @include m.background-image('../img/coop34.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    .header-aceite {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+}
+
+
+.header7 {
+    @include m.background-image('../../../build/img/coop32-md.avif');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    .header-aceite {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+}
+
+.header8 {
+    @include m.background-image('../../../build/img/coop23-md.avif');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    .header-aceite {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 40rem;
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-name: animarImagen;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+}
+
+
+.heading-data {
+
+
+    a {
+        text-decoration: none;
+        color: $white;
+        font-weight: bold;
+
+    }
+}
+
+.heading {
     font-weight: 900;
     font-size: 2rem;
     color: $marron;
@@ -434,27 +358,28 @@
     content: url(../img/logo2.png);
     height: 4rem;
     width: 4rem;
-    object-fit: contain; 
-    border-radius: 50%; 
+    object-fit: contain;
+    border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
 .logo:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 
-/* Estilo para el scroll personalizado */
 ::-webkit-scrollbar {
-    width: 10px; /* Ancho del scroll */
+    width: 10px;
+
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: $verde; /* Color oliva */
+    background-color: $verde;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Color del fondo del track */
+    background-color: #f1f1f1;
+
 }

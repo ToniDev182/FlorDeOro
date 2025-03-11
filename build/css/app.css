@@ -11867,6 +11867,12 @@ textarea.form-control-lg {
     transform: translateX(0);
   }
 }
+body {
+  background: url(../../../build/img/trama.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+}
+
 .navbar {
   position: relative;
   z-index: 100;
@@ -11888,11 +11894,11 @@ textarea.form-control-lg {
   background-color: #FFFFFF;
 }
 .navbar .dropdown-menu {
-  background-color: rgba(59, 90, 43, 0.7254901961);
+  background-color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
 }
 .navbar .dropdown-item {
-  color: #FFFFFF;
+  color: #1d1d1d;
   font-weight: bold;
 }
 .navbar .dropdown-item:hover {
@@ -11920,9 +11926,18 @@ textarea.form-control-lg {
   background-color: #3B5A2B;
   color: #FFFFFF;
 }
+.navbar .navbar-nav .nav-item {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+.navbar .navbar-nav .nav-item:hover {
+  background-color: #3B5A2B;
+  color: #FFFFFF;
+}
 
 .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../../build/img/coop33.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../../build/img/coop33-md.avif");
   background-position: 50%;
   background-size: cover;
   position: relative;
@@ -11936,38 +11951,21 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
   .header {
     min-height: 100vh;
   }
-}
-
-.webp .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop33.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop33.avif");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .header2 {
@@ -11985,38 +11983,21 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header2 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
   .header2 {
     min-height: 100vh;
   }
-}
-
-.webp .header2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop27.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop27.avif");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .header3 {
@@ -12034,38 +12015,21 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header3 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
   .header3 {
     min-height: 100vh;
   }
-}
-
-.webp .header3 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop21.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header3 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop21.avif");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .header4 {
@@ -12083,38 +12047,21 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header4 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
   .header4 {
     min-height: 100vh;
   }
-}
-
-.webp .header4 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop31.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header4 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop31.avif");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .header5 {
@@ -12132,38 +12079,21 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header5 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
   .header5 {
     min-height: 100vh;
   }
-}
-
-.webp .header5 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop20.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header5 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop20.avif");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .header6 {
@@ -12181,20 +12111,15 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header6 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
@@ -12203,20 +12128,8 @@ textarea.form-control-lg {
   }
 }
 
-.webp .header6 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop34.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header6 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop34.avif");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .header7 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop32.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../../../build/img/coop32-md.avif");
   background-position: 50%;
   background-size: cover;
   position: relative;
@@ -12230,20 +12143,15 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header7 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
@@ -12252,20 +12160,8 @@ textarea.form-control-lg {
   }
 }
 
-.webp .header7 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop32.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header7 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop32.avif");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .header8 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop23.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../../../build/img/coop23-md.avif");
   background-position: 50%;
   background-size: cover;
   position: relative;
@@ -12279,38 +12175,21 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .header8 .header-aceite {
     display: block;
-    /* mostramos la guitarra en una pantalla grande */
     position: absolute;
     right: 0;
-    /* la coloca del ladoº derecho */
     bottom: 0;
     width: 20rem;
     height: 40rem;
-    /* la coloca arriba */
     animation-duration: 1s;
-    /* Cuanto va a durar la animacion */
-    animation-delay: 0s; /* Cuanto va a tardar la imagen en comenzar */
-    animation-timing-function: ease-in-out; /* transicion */
-    animation-name: animarImagen; /* min 30 */
-    /* Llamamos a la animacion de la imagen */
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-name: animarImagen;
   }
 }
 @media (min-width: 992px) {
   .header8 {
     min-height: 100vh;
   }
-}
-
-.webp .header8 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop23.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .header8 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop23.avif");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .heading-data a {
@@ -12339,18 +12218,17 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
-/* Estilo para el scroll personalizado */
 ::-webkit-scrollbar {
-  width: 10px; /* Ancho del scroll */
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #3B5A2B; /* Color oliva */
+  background-color: #3B5A2B;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1; /* Color del fondo del track */
+  background-color: #f1f1f1;
 }
 
 .nosotros {
@@ -12436,114 +12314,6 @@ textarea.form-control-lg {
   border-radius: 4rem;
 }
 
-.imagen-optimizada-grid1 {
-  content: url(../img/coop34.jpg);
-}
-
-.webp .imagen-optimizada-grid1 {
-  content: url(../img/coop34.webp);
-}
-
-.avif .imagen-optimizada-grid1 {
-  content: url(../img/coop34.avif);
-}
-
-.imagen-optimizada-grid2 {
-  content: url(../img/coop27.jpg);
-}
-
-.webp .imagen-optimizada-grid2 {
-  content: url(../img/coop27.webp);
-}
-
-.avif .imagen-optimizada-grid2 {
-  content: url(../img/coop27.avif);
-}
-
-.imagen-optimizada-grid3 {
-  content: url(../img/coop25.jpg);
-}
-
-.webp .imagen-optimizada-grid3 {
-  content: url(../img/coop25.webp);
-}
-
-.avif .imagen-optimizada-grid3 {
-  content: url(../img/coop25.avif);
-}
-
-.imagen-optimizada-grid4 {
-  content: url(../img/coop39.jpg);
-}
-
-.webp .imagen-optimizada-grid4 {
-  content: url(../img/coop39.webp);
-}
-
-.avif .imagen-optimizada-grid4 {
-  content: url(../img/coop39.avif);
-}
-
-.imagen-optimizada-grid5 {
-  content: url(../img/coop33.jpg);
-}
-
-.webp .imagen-optimizada-grid5 {
-  content: url(../img/coop33.webp);
-}
-
-.avif .imagen-optimizada-grid5 {
-  content: url(../img/coop33.avif);
-}
-
-.imagen-optimizada-grid6 {
-  content: url(../img/coop32.jpg);
-}
-
-.webp .imagen-optimizada-grid6 {
-  content: url(../img/coop32.webp);
-}
-
-.avif .imagen-optimizada-grid6 {
-  content: url(../img/coop32.avif);
-}
-
-.imagen-optimizada-grid7 {
-  content: url(../img/coop31.jpg);
-}
-
-.webp .imagen-optimizada-grid7 {
-  content: url(../img/coop31.webp);
-}
-
-.avif .imagen-optimizada-grid7 {
-  content: url(../img/coop31.avif);
-}
-
-.imagen-optimizada-grid8 {
-  content: url(../img/coop30.jpg);
-}
-
-.webp .imagen-optimizada-grid8 {
-  content: url(../img/coop30.webp);
-}
-
-.avif .imagen-optimizada-grid8 {
-  content: url(../img/coop30.avif);
-}
-
-.imagen-optimizada-grid9 {
-  content: url(../img/coop21.jpg);
-}
-
-.webp .imagen-optimizada-grid9 {
-  content: url(../img/coop21.webp);
-}
-
-.avif .imagen-optimizada-grid9 {
-  content: url(../img/coop21.avif);
-}
-
 @media (max-width: 998px) {
   .imagen-optimizada-grid9:last-child {
     display: none;
@@ -12613,82 +12383,6 @@ textarea.form-control-lg {
   font-size: 3rem;
 }
 
-.aceite1 {
-  content: url(../img/aceite1.png);
-}
-
-.webp .aceite1 {
-  content: url(../img/aceite1.webp);
-}
-
-.avif .aceite1 {
-  content: url(../img/aceite1.avif);
-}
-
-.aceite2 {
-  content: url(../img/aceite2.png);
-}
-
-.webp .aceite2 {
-  content: url(../img/aceite2.webp);
-}
-
-.avif .aceite2 {
-  content: url(../img/aceite2.avif);
-}
-
-.aceite3 {
-  content: url(../img/aceite3.png);
-}
-
-.webp .aceite3 {
-  content: url(../img/aceite3.webp);
-}
-
-.avif .aceite3 {
-  content: url(../img/aceite3.avif);
-}
-
-.aceite4 {
-  content: url(../img/aceite4.png);
-}
-
-.webp .aceite4 {
-  content: url(../img/aceite4.webp);
-}
-
-.avif .aceite4 {
-  content: url(../img/aceite4.avif);
-}
-
-.aceite5 {
-  content: url(../img/aceite5.png);
-}
-
-.webp .aceite5 {
-  content: url(../img/aceite5.webp);
-}
-
-.avif .aceite5 {
-  content: url(../img/aceite5.avif);
-}
-
-.aceite6 {
-  content: url(../img/aceite10.png);
-}
-
-.aceite7 {
-  content: url(../img/aceite7.png);
-}
-
-.aceite8 {
-  content: url(../img/aceite8.png);
-}
-
-.aceite9 {
-  content: url(../img/aceite9.png);
-}
-
 .producto a {
   text-decoration: none;
   background-color: #3B5A2B;
@@ -12729,42 +12423,6 @@ textarea.form-control-lg {
   transform: scale(1.5);
 }
 
-.elaboracion .maquinaria-optimizada1 {
-  content: url(../img/coop11.jpg);
-}
-.elaboracion .webp .maquinaria-optimizada1 {
-  content: url(../img/coop11.webp);
-}
-.elaboracion .avif .maquinaria-optimizada1 {
-  content: url(../img/coop11.avif);
-}
-.elaboracion .maquinaria-optimizada2 {
-  content: url(../img/coop5.jpg);
-}
-.elaboracion .webp .maquinaria-optimizada2 {
-  content: url(../img/coop5.webp);
-}
-.elaboracion .avif .maquinaria-optimizada2 {
-  content: url(../img/coop5.avif);
-}
-.elaboracion .maquinaria-optimizada3 {
-  content: url(../img/coop9.jpg);
-}
-.elaboracion .webp .maquinaria-optimizada3 {
-  content: url(../img/coop9.webp);
-}
-.elaboracion .avif .maquinaria-optimizada3 {
-  content: url(../img/coop9.avif);
-}
-.elaboracion .maquinaria-optimizada4 {
-  content: url(../img/coop14.jpg);
-}
-.elaboracion .webp .maquinaria-optimizada4 {
-  content: url(../img/coop14.webp);
-}
-.elaboracion .avif .maquinaria-optimizada4 {
-  content: url(../img/coop14.avif);
-}
 .elaboracion .titulo-proceso {
   color: #3B5A2B;
   margin: 0;
@@ -12799,105 +12457,6 @@ textarea.form-control-lg {
 .gastronomia-local .avif .estrellas {
   content: url(../img/estrellas.avif);
 }
-.gastronomia-local .gastronomia1 {
-  content: url(../img/coop2.jpg);
-}
-.gastronomia-local .webp .gastronomia1 {
-  content: url(../img/coop2.webp);
-}
-.gastronomia-local .avif .gastronomia1 {
-  content: url(../img/coop2.avif);
-}
-.gastronomia-local .gastronomia2 {
-  content: url(../img/coop4.jpg);
-}
-.gastronomia-local .webp .gastronomia2 {
-  content: url(../img/coop4.webp);
-}
-.gastronomia-local .avif .gastronomia2 {
-  content: url(../img/coop4.avif);
-}
-.gastronomia-local .gastronomia3 {
-  content: url(../img/coop12.jpg);
-}
-.gastronomia-local .webp .gastronomia3 {
-  content: url(../img/coop12.webp);
-}
-.gastronomia-local .avif .gastronomia3 {
-  content: url(../img/coop12.avif);
-}
-.gastronomia-local .gastronomia4 {
-  content: url(../img/coop15.jpg);
-}
-.gastronomia-local .webp .gastronomia4 {
-  content: url(../img/coop15.webp);
-}
-.gastronomia-local .avif .gastronomia4 {
-  content: url(../img/coop15.avif);
-}
-.gastronomia-local .gastronomia5 {
-  content: url(../img/coop16.jpg);
-}
-.gastronomia-local .webp .gastronomia5 {
-  content: url(../img/coop16.webp);
-}
-.gastronomia-local .avif .gastronomia5 {
-  content: url(../img/coop16.avif);
-}
-.gastronomia-local .gastronomia6 {
-  content: url(../img/coop17.jpg);
-}
-.gastronomia-local .webp .gastronomia6 {
-  content: url(../img/coop17.webp);
-}
-.gastronomia-local .avif .gastronomia6 {
-  content: url(../img/coop17.avif);
-}
-.gastronomia-local .gastronomia7 {
-  content: url(../img/coop19.jpg);
-}
-.gastronomia-local .webp .gastronomia7 {
-  content: url(../img/coop19.webp);
-}
-.gastronomia-local .avif .gastronomia7 {
-  content: url(../img/coop19.avif);
-}
-.gastronomia-local .gastronomia8 {
-  content: url(../img/coop24.jpg);
-}
-.gastronomia-local .webp .gastronomia8 {
-  content: url(../img/coop24.webp);
-}
-.gastronomia-local .avif .gastronomia8 {
-  content: url(../img/coop24.avif);
-}
-.gastronomia-local .gastronomia9 {
-  content: url(../img/coop24.jpg);
-}
-.gastronomia-local .webp .gastronomia9 {
-  content: url(../img/coop24.webp);
-}
-.gastronomia-local .avif .gastronomia9 {
-  content: url(../img/coop24.avif);
-}
-.gastronomia-local .gastronomia9 {
-  content: url(../img/coop38.jpg);
-}
-.gastronomia-local .webp .gastronomia9 {
-  content: url(../img/coop38.webp);
-}
-.gastronomia-local .avif .gastronomia9 {
-  content: url(../img/coop38.avif);
-}
-.gastronomia-local .gastronomia10 {
-  content: url(../img/coop37.jpg);
-}
-.gastronomia-local .webp .gastronomia10 {
-  content: url(../img/coop37.webp);
-}
-.gastronomia-local .avif .gastronomia10 {
-  content: url(../img/coop37.avif);
-}
 .gastronomia-local .gastronomia .gastronomia-contenido {
   overflow: hidden;
   /* Evita que la imagen se desborde */
@@ -12910,45 +12469,34 @@ textarea.form-control-lg {
 }
 
 .footer__logo1 {
-  content: url(../img/ministerio.png);
+  content: url(../../../build/img/ministerio.png);
 }
 
 .footer__logo2 {
-  content: url(../img/eu.png);
+  content: url(../../../build/img/eu.png);
 }
 
 .footer__logo3 {
-  content: url(../img/recuperacion.png);
+  content: url(../../../build/img/recuperacion.png);
 }
 
 .footer__logo4 {
-  content: url(../img/redes.png);
+  content: url(../../../build/img/redes.png);
 }
 
 .footer__logo {
-  content: url(../img/logo.gif);
+  content: url(../../../build/img/logo2.avif);
 }
 
 .footer__row2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop25.jpg");
-  background-position: 50%;
+  height: rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../build/img/coop25-md.avif");
   background-size: cover;
-}
-
-.webp .footer__row2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop25.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.avif .footer__row2 {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.316), rgba(126, 126, 126, 0.316)), url("../img/coop25.avif");
-  background-position: 50%;
-  background-size: cover;
+  background-position: center;
 }
 
 .form_log {
-  content: url(../img/logo.gif);
+  content: url(../../../build/img/logo2.avif);
 }
 
 .footer_nav a {
@@ -12962,6 +12510,7 @@ textarea.form-control-lg {
 
 .footer__copyright {
   background-color: #3B5A2B;
+  color: #FFFFFF;
 }
 
 .contacto-heading {

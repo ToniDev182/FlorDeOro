@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/producto7.html"
+    "livePreview.defaultPreviewPath": "/producto7.html",
+    "liveServer.settings.port": 5502
 }

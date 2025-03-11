@@ -2,41 +2,38 @@
 @use '../base/mixins' as m;
 
 .footer__logo1 {
-    content: url(../img/ministerio.png);
+    content: url(../../../build/img/ministerio.png);
 }
 
 .footer__logo2 {
-    content: url(../img/eu.png);
+    content: url(../../../build/img/eu.png);
 }
 
 .footer__logo3 {
-    content: url(../img/recuperacion.png);
+    content: url(../../../build/img/recuperacion.png);
 }
 
 .footer__logo4 {
-    content: url(../img/redes.png);
+    content: url(../../../build/img/redes.png);
 }
 
 .footer__logo {
-    content: url(../img/logo.gif);
+    content: url(../../../build/img/logo2.avif);
 }
 
 .footer__row2 {
-    @include m.background-image('../img/coop25.jpg');
-
-
+    height:rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('../../build/img/coop25-md.avif');
+    background-size: cover;
+    background-position: center;
 }
 
-.webp .footer__row2 {
-    @include m.background-image('../img/coop25.webp');
-}
 
-.avif .footer__row2 {
-    @include m.background-image('../img/coop25.avif');
-}
 
 .form_log {
-    content: url(../img/logo.gif);
+    content: url(../../../build/img/logo2.avif);
+
 }
 
 .footer_nav a {
@@ -51,4 +48,5 @@
 
 .footer__copyright {
     background-color: $verde;
+    color: $white;
 }

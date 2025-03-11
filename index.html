@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="build/css/img.css">
     <link rel="shortcut icon" href="build/img/olive.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
- <!--    <link rel="stylesheet" href="build/css/app.min.css"> -->
+    <!--    <link rel="stylesheet" href="build/css/app.min.css"> -->
 
 </head>
 
 <body>
-    <header class="py-5 header">
+    <header class=" py-5 header">
         <div class="container-xl">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -33,7 +33,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarScroll">
+                    <div class=" collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                             style="--bs-scroll-height: 100px;">
                             <li class="nav-item">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </nav>
-            <img class="header-aceite" src="build/img/animacion.png" alt="Imagen headers">
+            <img class="header-aceite" src="build/img/animacion.avif" alt="Imagen headers">
 
         </div>
 
@@ -114,47 +114,83 @@
             <ul class="row list-unstyled galeria ">
                 <li class="col-md-6 col-lg-4 ">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_01 ">
-                        <img class="img-fluid imagen-optimizada-grid1" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop27-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop27-ms.avif">
+                            <img class="img-fluid" src="build/img/coop27.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_02">
-                        <img class="img-fluid imagen-optimizada-grid2" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop24-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop24-ms.avif">
+                            <img class="img-fluid" src="build/img/coop24.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_03">
-                        <img class="img-fluid imagen-optimizada-grid3" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop38-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop38-ms.avif">
+                            <img class="img-fluid" src="build/img/coop38-md.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_04">
-                        <img class="img-fluid imagen-optimizada-grid4" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop33-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop33-ms.avif">
+                            <img class="img-fluid" src="build/img/coop33.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_05">
-                        <img class="img-fluid imagen-optimizada-grid5" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop32-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop32-ms.avif">
+                            <img class="img-fluid" src="build/img/coop32.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_06">
-                        <img class="img-fluid imagen-optimizada-grid6" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop31-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop31-ms.avif">
+                            <img class="img-fluid" src="build/img/coop31.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_07">
-                        <img class="img-fluid imagen-optimizada-grid7" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop30-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop30-ms.avif">
+                            <img class="img-fluid" src="build/img/coop30.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_08">
-                        <img class="img-fluid imagen-optimizada-grid8" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop21-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop21-ms.avif">
+                            <img class="img-fluid" src="build/img/coop21.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
                 <li class="col-md-6 col-lg-4 list-unstyled">
                     <a data-bs-toggle="modal" data-bs-target="#modal-imagen" data-bs-imagen="galeria_09">
-                        <img class="img-fluid imagen-optimizada-grid9" src="" alt="imagen galeria">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop27-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop27-ms.avif">
+                            <img class="img-fluid" src="build/img/coop27.jpg" alt="imagen galeria">
+                        </picture>
                     </a>
                 </li>
 
@@ -193,7 +229,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite1" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite1-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite1-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite1.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Extra Virgen</h3>
@@ -208,7 +248,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite2" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite2-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite2-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite2.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Orgánico</h3>
@@ -223,7 +267,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite3" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite3-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite3-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite3.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Gourmet</h3>
@@ -238,7 +286,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite4" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite4-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite4-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite4.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Arbequina</h3>
@@ -253,7 +305,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite5" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite5-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite5-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite5.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Picual</h3>
@@ -268,7 +324,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite6" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite10-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite10-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite10.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Hojiblanca</h3>
@@ -283,7 +343,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite7" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite7-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite7-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite7.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Coupage</h3>
@@ -298,7 +362,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite8" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite8-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite8-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite8.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Sin Filtrar</h3>
@@ -313,7 +381,11 @@
             <div class="col-md-6 col-lg-4 my-4 row align-items-center ">
                 <!-- disposicion de las columnas segun el dispositivos -->
                 <div class="col-4"> <!-- aplica en todos los tamaños -->
-                    <img class="img-producto img-fluid aceite9" src="" alt="Imagen aceite">
+                    <picture>
+                        <source media="(min-width: 600px)" srcset="build/img/aceite9-md.avif">
+                        <source media="(max-width: 599px)" srcset="build/img/aceite9-ms.avif">
+                        <img class="img-fluid" src="build/img/aceite9.png" alt="imagen galeria">
+                    </picture>
                 </div>
                 <div class="producto col-8">
                     <h3 class="heading-producto fs-4 fw-bold text-uppercase">Aceite Premium</h3>
@@ -335,7 +407,11 @@
         <div
             class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
             <div class="imagen col-md-6 order-md-last">
-                <img class="img-fluid maquinaria-optimizada1" src="" alt="imagen proceso">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="build/img/coop11-md.avif">
+                    <source media="(max-width: 599px)" srcset="build/img/coop11-ms.avif">
+                    <img class="img-fluid" src="build/img/coop11.jpg" alt="imagen proceso">
+                </picture>
             </div>
 
             <div class="texto col-md-6 ">
@@ -350,7 +426,11 @@
         <div
             class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
             <div class="imagen col-md-6">
-                <img class="img-fluid maquinaria-optimizada2" src="" alt="imagen proceso">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="build/img/coop5-md.avif">
+                    <source media="(max-width: 599px)" srcset="build/img/coop5-ms.avif">
+                    <img class="img-fluid" src="build/img/coop5.jpg" alt="imagen proceso">
+                </picture>
             </div>
 
             <div class="texto col-md-6 ">
@@ -367,7 +447,11 @@
         <div
             class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
             <div class="imagen col-md-6  order-md-last">
-                <img class="img-fluid maquinaria-optimizada3" src="" alt="imagen proceso">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="build/img/coop9-md.avif">
+                    <source media="(max-width: 599px)" srcset="build/img/coop9-ms.avif">
+                    <img class="img-fluid" src="build/img/coop9.jpg" alt="imagen proceso">
+                </picture>
             </div>
 
             <div class="texto col-md-6 ">
@@ -383,7 +467,11 @@
         <div
             class="proceso-almazara my-4 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-centers">
             <div class="imagen col-md-6">
-                <img class="img-fluid maquinaria-optimizada4" src="" alt="imagen proceso">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="build/img/coop14-md.avif">
+                    <source media="(max-width: 599px)" srcset="build/img/coop14-ms.avif">
+                    <img class="img-fluid" src="build/img/coop14.jpg" alt="imagen proceso">
+                </picture>
             </div>
 
             <div class="texto col-md-6 ">
@@ -407,35 +495,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia2" src="" alt="Jamón, Queso y Aceite">
-                    </div>
-                    <div class="card-body">
-                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
-                        <h3 class="card-title">Jamón, Queso y Aceite</h3>
-                        <p class="card-text">Un clásico de la gastronomía baezana: jamón serrano de la Sierra de Segura,
-                            queso curado y un toque de aceite de oliva virgen extra.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col gastronomia">
-                <div class="card h-100">
-                    <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia3" src="" alt="Remojón">
-                    </div>
-                    <div class="card-body">
-                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
-                        <h3 class="card-title">Remojón</h3>
-                        <p class="card-text">Ensalada tradicional con naranja, bacalao desmigado, huevo duro y un buen
-                            chorro de aceite de oliva virgen extra.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col gastronomia">
-                <div class="card h-100">
-                    <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia4" src="" alt="Salmorejo">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop15-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop15-ms.avif">
+                            <img class="img-fluid" src="build/img/coop15.jpg" alt="Salmorejo">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -449,7 +513,49 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia1" src="" alt="Tartar con Aceite">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop12-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop12-ms.avif">
+                            <img class="img-fluid" src="build/img/coop12.jpg" alt="Remojón">
+                        </picture>
+
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Remojón</h3>
+                        <p class="card-text">Ensalada tradicional con naranja, bacalao desmigado, huevo duro y un buen
+                            chorro de aceite de oliva virgen extra.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop6-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop6-ms.avif">
+                            <img class="img-fluid" src="build/img/coop6.jpg" alt="Jamón, Queso y Aceite">
+                        </picture>
+                    </div>
+                    <div class="card-body">
+                        <img class="estrellas" src="" alt="calificación Plato Gastronómico">
+                        <h3 class="card-title">Jamón, Queso y Aceite</h3>
+                        <p class="card-text">Un clásico de la gastronomía baezana: jamón serrano de la Sierra de Segura,
+                            queso curado y un toque de aceite de oliva virgen extra.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col gastronomia">
+                <div class="card h-100">
+                    <div class="gastronomia-contenido">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop2-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop2-ms.avif">
+                            <img class="img-fluid" src="build/img/coop2.jpg" alt="Tartar con Aceite">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -463,7 +569,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia5" src="" alt="Aceite Virgen Extra Mojado">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop16-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop16-ms.avif">
+                            <img class="img-fluid" src="build/img/coop16.jpg" alt="Aceite Virgen Extra Mojado">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -477,7 +587,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia6" src="" alt="Aceite Picual y Pan">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop17-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop17-ms.avif">
+                            <img class="img-fluid" src="build/img/coop17.jpg" alt="Aceite Picual y Pan">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -491,7 +605,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia7" src="" alt="Conejo en Aceite">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop19-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop19-ms.avif">
+                            <img class="img-fluid" src="build/img/coop19.jpg" alt="Conejo en Aceite">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -505,7 +623,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia8" src="" alt="Aceite y Vino">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop24-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop24-ms.avif">
+                            <img class="img-fluid" src="build/img/coop24.jpg" alt="Aceite y Vino">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -519,7 +641,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia9" src="" alt="Aceite Picual y Conejo">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop38-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop38-ms.avif">
+                            <img class="img-fluid" src="build/img/coop38.jpg" alt="Aceite Picual y Conejo">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
@@ -533,7 +659,11 @@
             <div class="col gastronomia">
                 <div class="card h-100">
                     <div class="gastronomia-contenido">
-                        <img class="card-img-top img-fluid gastronomia10" src="" alt="Productos de la Zona">
+                        <picture>
+                            <source media="(min-width: 600px)" srcset="build/img/coop37-md.avif">
+                            <source media="(max-width: 599px)" srcset="build/img/coop37-ms.avif">
+                            <img class="img-fluid" src="build/img/coop37.jpg" alt="Productos de la Zona">
+                        </picture>
                     </div>
                     <div class="card-body">
                         <img class="estrellas" src="" alt="calificación Plato Gastronómico">
